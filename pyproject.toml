@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "titanic"
+version = "0.1.0"
+description = ""
+authors = ["astridhult <astridhult4@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+polars = "^0.19.3"
+streamlit = "^1.27.0"
+statsmodels = "^0.14.0"
+matplotlib = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
